@@ -272,7 +272,7 @@ const TemplateParserHelpers = function (request: Request) {
         }
       );
     },
-    // provide shifted time in format
+    // provide shifted time with format
     timeShift: function (format, shiftHours, shiftMinutes, shiftSeconds) {
       let date = new Date();
 
